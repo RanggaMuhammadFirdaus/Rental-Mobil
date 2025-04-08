@@ -1,0 +1,83 @@
+body {
+    font-family: 'Poppins';
+  }
+
+  .bg-orange {
+    background-color: #f97316;
+  }
+
+  .text-orange {
+    color: #f97316;
+  }
+
+  /* Borderless filter buttons */
+.btn-filter {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-weight: 500;
+  }
+  
+  .btn-filter:hover,
+  .btn-filter:focus {
+    color: #f97316;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  
+
+ .btn-orange {
+    background-color: #f97316;
+    color: white;
+    border: none;
+  }
+  
+  /* Active orange style */
+.btn-orange.active {
+    background-color: #f97316;
+    color: white;
+    border-radius: 999px;
+  }
+
+  .btn-orange:hover,
+  .btn-orange:focus {
+    background-color: #ea580c;
+    color: white;
+  }
+
+  .btn-orange.active {
+    background-color: #f97316;
+    color: white;
+    border-radius: 999px; /* rounded pill shape */
+  }
+
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #f97316;
+  }
+
+  .btn-orange-outline {
+    border: 1px solid #f97316;
+    color: #f97316;
+    background-color: transparent;
+  }
+
+  .btn-orange-outline:hover {
+    background-color: #f97316;
+    color: #fff;
+  }
+
+  .navbar.fixed-top {
+    z-index: 1050;
+  }
+
+
+  @media (max-width: 767.98px) {
+    .search-bar {
+      margin-top: -20px;
+    }
+
+    .btn-filter {
+      margin-bottom: 0.5rem;
+    }
+  }

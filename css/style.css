@@ -1,0 +1,128 @@
+/* style.css */
+
+body {
+    font-family: 'Poppins';
+  }
+
+/* Main orange color used in buttons and highlights */
+.text-orange {
+    color: #fc6603;
+  }
+  
+  .btn-orange {
+    background-color: #fc6603;
+    color: #fff;
+    border: none;
+    transition: 0.3s ease;
+  }
+  
+  .btn-orange:hover {
+    background-color: #e35b00;
+    color: #fff;
+  }
+  
+
+/* Outlined orange button */
+.btn-outline-orange {
+    border: 2px solid #fc6603;
+    color: #fc6603;
+    background-color: transparent;
+    transition: 0.3s ease;
+  }
+  
+  .btn-outline-orange:hover {
+    background-color: #fc6603;
+    color: #fff;
+  }
+
+  .content-section {
+    padding-top: 100px;
+  }
+
+  /* Circle background behind icons */
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    background-color: #fff5ee;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Orange text color */
+.text-orange {
+    color: #fc6603;
+  }
+  
+  /* Solid orange button */
+  .btn-orange {
+    background-color: #fc6603;
+    color: #fff;
+    border: none;
+    transition: 0.3s ease;
+  }
+  
+  .btn-orange:hover {
+    background-color: #e35b00;
+    color: #fff;
+  }
+  
+  /* Outline orange button */
+  .btn-outline-orange {
+    border: 2px solid #fc6603;
+    color: #fc6603;
+    background-color: transparent;
+    transition: 0.3s ease;
+  }
+  
+  .btn-outline-orange:hover {
+    background-color: #fc6603;
+    color: #fff;
+  }
+  
+  /* Nav pills customization */
+  .nav-pills .nav-link.active {
+    background-color: #fc6603;
+    color: #fff;
+  }
+  .nav-pills .nav-link {
+    border-radius: 9999px;
+  }
+
+  /* How to Rent Section */
+  .icon-circle {
+    width: 60px;
+    height: 60px;
+    background-color: #FA7E00;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .step-number {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #FA7E00;
+    border-radius: 50%;
+    color: #FA7E00;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  
+  
+  
+ 
+  
+/* Make sure card looks clean on mobile */
+@media (max-width: 767.98px) {
+    .hero-section .card {
+      margin-top: 2rem;
+    }
+  }
+  
