@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/style.css" />
   <!-- Icons (optional) -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   
@@ -326,13 +327,18 @@
 
   <!-- How to Rent Section -->
 <section class="py-5 bg-white py-4 py-md-5 px-3 px-md-5" id="rent">
-    <div class="container text-center">
-      <h2 class="fw-bold mb-2">Cara Rental Mobil</h2>
-      <p class="text-muted mb-5">
-        Proses rental mobil yang mudah dan cepat untuk memenuhi kebutuhan perjalanan Anda
-      </p>
+  <div class="container text-center">
+    <h2 class="fw-bold mb-2">Cara Rental Mobil</h2>
+    <p class="text-muted mb-5">
+      Proses rental mobil yang mudah dan cepat untuk memenuhi kebutuhan perjalanan Anda
+    </p>
+
+    <!-- Position relative wrapper -->
+    <div class="position-relative">
+      <!-- Line connector (hidden on small screens) -->
+      <div class="step-line d-none d-lg-block"></div>
+
       <div class="row justify-content-center gy-5">
-        
         <!-- Step 1 -->
         <div class="col-12 col-md-6 col-lg-3">
           <div class="d-flex flex-column align-items-center">
@@ -346,7 +352,7 @@
             </p>
           </div>
         </div>
-  
+
         <!-- Step 2 -->
         <div class="col-12 col-md-6 col-lg-3">
           <div class="d-flex flex-column align-items-center">
@@ -360,7 +366,7 @@
             </p>
           </div>
         </div>
-  
+
         <!-- Step 3 -->
         <div class="col-12 col-md-6 col-lg-3">
           <div class="d-flex flex-column align-items-center">
@@ -374,7 +380,7 @@
             </p>
           </div>
         </div>
-  
+
         <!-- Step 4 -->
         <div class="col-12 col-md-6 col-lg-3">
           <div class="d-flex flex-column align-items-center">
@@ -388,10 +394,11 @@
             </p>
           </div>
         </div>
-  
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- Section Keunggulan Layanan -->
 <section class="py-5 bg-light py-4 py-md-5 px-3 px-md-5" id="layanan">

@@ -41,14 +41,16 @@ body {
   }
 
   /* Circle background behind icons */
-.icon-circle {
+  .icon-circle {
+    position: relative;
     width: 60px;
     height: 60px;
-    background-color: #fff5ee;
+    background-color: #f97316; /* Or your accent orange */
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
   }
 
   /* Orange text color */
@@ -101,6 +103,8 @@ body {
     align-items: center;
     justify-content: center;
   }
+
+  
   
   .step-number {
     width: 24px;
@@ -112,6 +116,26 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
+  }
+
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+
+  .step-line {
+    position: absolute;
+    top: 110px; /* Adjust vertically to align with the center of icons */
+    left: 10%;
+    right: 10%;
+    height: 1px;
+    background-color:#FA7E00;
+    z-index: 0;
   }
   
 
@@ -119,11 +143,19 @@ body {
   
   
  
+
+  
   
 /* Make sure card looks clean on mobile */
 @media (max-width: 767.98px) {
     .hero-section .card {
       margin-top: 2rem;
+    }
+  }
+
+  @media (max-width: 991.98px) {
+    .step-line {
+      display: none;
     }
   }
   
